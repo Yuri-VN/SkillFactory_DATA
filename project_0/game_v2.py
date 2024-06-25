@@ -27,7 +27,7 @@ def random_predict(number:int=1) -> int: # Обратите внимание, ч
             break # выход из цикла, если угадали
     return(count)
 
-print('Количество попыток: {}'. format(random_predict(77)))
+print('Количество попыток: {}'. format(random_predict()))
 
 
 def score_game(random_predict) -> int:
