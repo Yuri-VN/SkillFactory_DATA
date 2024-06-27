@@ -32,4 +32,4 @@ def game_core_v3(number: int = 1) -> int:
         predict = (start + finish) // 2 
 
     return count
-game_core_v3()
+#game_core_v3()
