@@ -6,5 +6,5 @@ countries_df = pd.DataFrame({
     'area': [133396, 9984670, 9826630, 17125191, 603628, 207600, 2724902]
 })
 
-print (countries_df)
-#countries_df.to_csv('data/countries.csv', index=False, sep=';')
+# print (countries_df)
+countries_df.to_csv('project_1_Pandas/data/countries.csv', index=False, sep=';')
