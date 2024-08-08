@@ -7,8 +7,3 @@ countries_df = pd.DataFrame({
 })
 
 countries_df.to_csv('project_1_Pandas/data/countries.csv', index=False, sep=';')
-
-# По ссылке
-# data = pd.read_csv('https://github.com/Yuri-VN/SkillFactory_DATA/blob/main/project_1_Pandas/data/countries.csv')
-data = pd.read_csv('https://raw.githubusercontent.com/esabunor/MLWorkspace/master/melb_data.csv')
-print (data)
