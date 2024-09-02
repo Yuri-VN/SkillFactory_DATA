@@ -13,5 +13,5 @@ print (melb_data_ps.head())
 #print(citi_bike.head())
 
 # Практика 2.
-melb_data_fe = pd.read_csv('https://raw.githubusercontent.com/Yuri-VN/SkillFactory_DATA/main/project_1_Pandas/data/melb_data_fe.csv')
-print(melb_data_fe.head())
+#melb_data_fe = pd.read_csv('https://raw.githubusercontent.com/Yuri-VN/SkillFactory_DATA/main/project_1_Pandas/data/melb_data_fe.csv')
+#print(melb_data_fe.head())
