@@ -17,5 +17,9 @@ import pandas as pd
 #print(melb_data_fe.head())
 
 # Практика 3. Датасет MovieLens
-MovieLens = pd.read_csv('project_1_Pandas/data/movies_data/movies.csv', sep=',')
-print (MovieLens.head())
+# MovieLens = pd.read_csv('project_1_Pandas/data/movies_data/movies.csv', sep=',')
+# print (MovieLens.head())
+
+# Практика 4. Датасет Ratings_MovieLens
+Ratings_MovieLens = pd.read_csv('project_1_Pandas/data/movies_data/ratings_movies.csv', sep=',')
+print (Ratings_MovieLens.head())
