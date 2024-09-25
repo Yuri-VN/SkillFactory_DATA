@@ -21,5 +21,9 @@ import pandas as pd
 # print (MovieLens.head())
 
 # Практика 4. Датасет Ratings_MovieLens
-Ratings_MovieLens = pd.read_csv('project_1_Pandas/data/movies_data/ratings_movies.csv', sep=',')
-print (Ratings_MovieLens.head())
+# Ratings_MovieLens = pd.read_csv('project_1_Pandas/data/movies_data/ratings_movies.csv', sep=',')
+# print (Ratings_MovieLens.head())
+
+# Практика 5. Датасет orders_products
+orders_products = pd.read_csv('project_1_Pandas/data/orders_products/orders.csv', sep=',')
+print (orders_products.head()) 
