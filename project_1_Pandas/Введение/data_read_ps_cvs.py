@@ -29,5 +29,9 @@ import pandas as pd
 # print (orders_products.head())
 
 # Практика 6. Датасет covid_data
-covid_data = pd.read_csv('project_1_Pandas/data/covid_data/covid_data.csv', sep=',')
-print (covid_data.head()) 
+#covid_data = pd.read_csv('project_1_Pandas/data/covid_data/covid_data.csv', sep=',')
+#print (covid_data.head())
+
+# Практика 7. Датасет churn_data
+churn_data = pd.read_csv('project_1_Pandas/data/churn_data/churn.csv', sep=',')
+print (churn_data.head(3)) 
