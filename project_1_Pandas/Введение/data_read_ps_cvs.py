@@ -37,5 +37,9 @@ import pandas as pd
 #print (churn_data.head(3)) 
 
 # Практика 8. Датасет sber_data
-sber_data = pd.read_csv('project_1_Pandas/data/sber_data/sber_data.csv', sep=',')
-print (sber_data.head(3)) 
+#sber_data = pd.read_csv('project_1_Pandas/data/sber_data/sber_data.csv', sep=',')
+#print (sber_data.head(3))
+
+# Практика 9. Датасет diabetes_data
+diabetes_data = pd.read_csv('project_1_Pandas/data/diabetes_data/diabetes_data.csv', sep=',')
+print (diabetes_data.head(3)) 
